@@ -1,2 +1,3 @@
-metrics/data
+metrics/prometheus
+metrics/grafana
 servers/server-*
