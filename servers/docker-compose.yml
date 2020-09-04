@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  mc-server-1:
+    container_name: server-1
+    image: snusbro/minecraft-server:1.16.2
+    ports:
+    - "25565:25565"
+    - "8123:8123"
+    volumes:
+    - ./server-1:/server
+    restart: unless-stopped
+
